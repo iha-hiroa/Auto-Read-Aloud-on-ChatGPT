@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         Auto Read Aloud on ChatGPT for Edge
+// @name         Auto Read Aloud on ChatGPT
 // @namespace    https://github.com/iha-hiroa/
 // @copyright    MIT
 // @version      0.1
-// @description  Only works on Edge. Automatically clicks "Read aloud" buttons on chatgpt.com
+// @description  Automatically clicks "Read aloud" buttons on chatgpt.com
 // @author       hiroa
 // @match        https://chatgpt.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=chatgpt.com
