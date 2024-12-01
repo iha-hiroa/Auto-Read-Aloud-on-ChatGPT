@@ -6,8 +6,9 @@ I'm using this script, bugfix will be quick but not guaranteed.
 Feel free to adjust/re-publish the script.
 
 # How to install
+1. Enable [Developer mode](https://www.tampermonkey.net/faq.php?locale=en#Q209)  
+   Enabling Developer mode might take time. If you already installed Tampermonkey, disable and re-enable it after enabling dev mode.
 1. Install [Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) 
-1. Enable [Developer mode](https://www.tampermonkey.net/faq.php?locale=en#Q209)
 1. Click this link [Install the script](https://raw.githubusercontent.com/iha-hiroa/Auto-Read-Aloud-on-ChatGPT-for-Edge/refs/heads/main/main.user.js)
 2. Go https://chatgpt.com/
 3. Login ChatGPT to show "Read aloud" button
