@@ -1,4 +1,6 @@
 # Auto Read Aloud on ChatGPT for Edge
+userscript that automatically clicks "Read aloud" buttons on chatgpt.com  
+
 Only works on Edge  
 Tested on 2024/11/30  
 I'm using this script, bugfix will be quick but not guaranteed.  
