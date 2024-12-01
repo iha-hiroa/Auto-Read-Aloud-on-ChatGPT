@@ -10,7 +10,7 @@ Feel free to adjust/re-publish the script.
 1. Enable [Developer mode](https://www.tampermonkey.net/faq.php?locale=en#Q209)
 1. Click this link [Install the script](https://raw.githubusercontent.com/iha-hiroa/Auto-Read-Aloud-on-ChatGPT-for-Edge/refs/heads/main/main.user.js)
 2. Go https://chatgpt.com/
-3. login to show "Read aloud" button
+3. Login ChatGPT to show "Read aloud" button
 
 # How works
 1. Every 1 second, check the element 'button[aria-label="Read aloud"]'
