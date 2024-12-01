@@ -15,7 +15,7 @@
     console.log(`Auto Read Aloud on ChatGPT: loaded`);
 
     // Initialize a Set to keep track of clicked button selectors
-    const clickedButtons = new Set();
+    const clickedButtons = new WeakSet();
 
     // Function to find and click new buttons
     function checkAndClickButtons() {
