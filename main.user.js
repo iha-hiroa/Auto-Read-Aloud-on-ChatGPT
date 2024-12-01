@@ -12,7 +12,7 @@
 
 (function() {
     'use strict';
-    console.log(`Auto Read Aloud on ChatGPT for Edge: loaded`);
+    console.log(`Auto Read Aloud on ChatGPT: loaded`);
 
     // Initialize a Set to keep track of clicked button selectors
     const clickedButtons = new Set();
