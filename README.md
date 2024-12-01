@@ -12,13 +12,9 @@ Feel free to adjust/re-publish the script.
 1. Enable [Developer mode](https://learn.microsoft.com/en-us/microsoft-edge/extensions-chromium/getting-started/extension-sideloading) on Edge
 1. Click this link [Install the script](https://raw.githubusercontent.com/iha-hiroa/Auto-Read-Aloud-on-ChatGPT-for-Edge/refs/heads/main/main.user.js)
 
-# Quick view
-You can copy and paste to your console.  
-1. Open Edge
-2. Go chatgpt.com
-3. Press F12
-4. Go console
-5. Paste the code
+# How works
+1. Every 1 second, check the element 'button[aria-label="Read aloud"]'
+2. If find it, and it's not clicked before, click it.
 ```
 (function() {
     'use strict';
