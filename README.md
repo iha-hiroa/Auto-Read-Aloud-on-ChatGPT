@@ -18,16 +18,11 @@ Feel free to adjust/re-publish the script.
 2. If find it, and it's not clicked before, click it.
 ```
 (function() {
-    'use strict';
-    console.log(`Auto Read Aloud on ChatGPT for Edge: loaded`);
-
     // Initialize a Set to keep track of clicked button selectors
     const clickedButtons = new Set();
 
     // Function to find and click new buttons
     function checkAndClickButtons() {
-        // console.log(`Auto Click Read Aloud on ChatGPT: Checking`);
-
         // Find all buttons with the specified aria-label
         const buttons = document.querySelectorAll('button[aria-label="Read aloud"]');
 
@@ -40,7 +35,6 @@ Feel free to adjust/re-publish the script.
 
             // Click the button
             button.click();
-            // console.log(`Auto Click Read Aloud on ChatGPT: Clicked`);
 
             // Remember the button as clicked
             clickedButtons.add(selector);
